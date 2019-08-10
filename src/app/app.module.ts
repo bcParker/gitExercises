@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 import { PracticeComponent } from './practice/practice.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AdamComponent } from './adam/adam.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PracticeComponent
+
+    PracticeComponent,
+    AdamComponent
+
   ],
   imports: [
     BrowserModule,
